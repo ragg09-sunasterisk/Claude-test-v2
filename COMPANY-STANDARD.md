@@ -61,5 +61,6 @@ import {
   AccountCircle as AccountIcon,
   NotificationsOutlined as NotificationsIcon,
 } from "@mui/icons-material";
+
 import { Logo, NavItem, SearchInput } from "@/components/ui";
 ```
