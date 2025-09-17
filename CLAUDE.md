@@ -71,4 +71,8 @@ The codebase follows a high/low-level component pattern:
 - Separate concerns: components, services, utilities, types, and tests
 - Use index files for clean imports and barrel exports
 - Keep configuration files at appropriate levels (root, feature, or component)
+<<<<<<< Updated upstream
 - Follow naming patterns: PascalCase for components, camelCase for utilities, kebab-case for assets
+=======
+- Follow naming patterns: PascalCase for components, camelCase for utilities, kebab-case for assets
+>>>>>>> Stashed changes
