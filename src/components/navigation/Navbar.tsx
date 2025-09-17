@@ -1,29 +1,30 @@
 "use client";
 
-import { Logo, NavItem, SearchInput } from "@/components/ui";
+import { useState } from "react";
 import {
-  AppBar,
-  Toolbar,
   Box,
-  IconButton,
   Menu,
-  MenuItem,
+  List,
+  Drawer,
+  AppBar,
   Avatar,
   Divider,
-  useTheme,
-  useMediaQuery,
-  Drawer,
-  List,
+  Toolbar,
+  MenuItem,
   ListItem,
+  useTheme,
+  IconButton,
+  useMediaQuery,
 } from "@mui/material";
 import {
   Menu as MenuIcon,
-  NotificationsOutlined as NotificationsIcon,
-  AccountCircle as AccountIcon,
-  Settings as SettingsIcon,
   Logout as LogoutIcon,
+  Settings as SettingsIcon,
+  AccountCircle as AccountIcon,
+  NotificationsOutlined as NotificationsIcon,
 } from "@mui/icons-material";
-import { useState } from "react";
+
+import { Logo, NavItem, SearchInput } from "@/components/ui";
 
 interface NavLink {
   label: string;
