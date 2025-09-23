@@ -46,7 +46,7 @@ jobs:
 
             Use the repository's CLAUDE.md for guidance on style and conventions. Be constructive and helpful in your feedback.
 
-            Use the repository's COMPANY-STANDARD.md for additional company-specific coding standards. Also Provide a note referring that this was being used during the code review.
+            Use npx ccusage and generate a summary of token usage for this review.
 
             Use `gh pr comment` with your Bash tool to leave your review as a comment on the PR.
 
